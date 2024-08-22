@@ -1,160 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/trolley.png" type="image/png" />
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
-<style>
-    .parent{
-        display:flex ;
-        margin: 10px;
-        padding: 10px;
-        justify-content: space-between;
 
-
-    }
-    .child{
-        height: 300px;
-        width: 200px;
-        border: solid black 3px;
-        border-radius: 10px 10px 0px 0px;
-        cursor: pointer;
-        box-shadow: 0px 0px 1px 1px gray ;
-        margin: 5px;
-        padding: 5px;
-        
-    }
-    .child:hover{
-       box-shadow: 0px 0px 2px 2px rgb(239, 239, 182);
-       border: solid black 4px;
-       background-color: #f3d0b4;
-       
-    }
-    .img{
-        width: 100%;
-        height: 140px;     
-
-    }
-    .text{
-        text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: x-large;
-        padding: 2px;
-        margin: 5px;
-
-    }
-    h1{
-        background-color: #f6f2f2;
-        text-align: center;
-        font-size: xxx-large;
-    }
-    .p{
-       color: #0caade;
-       font-size: larger;
-       text-align: center;
-       margin: 1px;
-       padding: 2px;
-      background-color: #d6e9f4;
-       
-       
-    }
-    .p1{
-        text-align: center;
-        color: black;
-        font-weight: 20px;
-        font-size: larger;
-        
-    }
-   
-</style>
 <body>
-    <h1>Fru!t Mart</h1>
-
-    <div class="parent">
-
-        <div class="child">
-            <img src="apple.jpg" class="img"  alt="error">
-            <h2 class="text">Apple</h2>
-            <p class="p">
-                Price=200 <br>
-            </p>
-            <p class="p1">
-            (4 pics .Approx 500g-600g)
-            </p>
-           
-        </div>
-
-        <div class="child">
-            <img src="banana.jpg" class="img"  alt="error">
-            <h2 class="text">Banana</h2>
-            <p class="p">
-                Price=40 <br>
-            </p>
-            <p class="p1">
-            (9-10 pics .Approx 1kg)
-            </p>
+    <div class="fix-header">
+        <div class="parent">
+            <div class="upper-side">
+                <span class="heading"><b>Toy Shop🛍...</b> </span>
+                
+            </div>
+            <div class="logins">
+                <a href="../pages/my-cart.html"><img src="../img/cart.png" height="40px" class="icons" /></a>
+                <b>Cart</b>
+            </div>
+            <div class="logins">
+                <a href="../pages/whistlist.html"><img src="../img/wishlist.png" height="40px" class="icons" /></a>
+                <b>Wishlist</b>
+            </div>
+            <div class="logins">
+                <a href="../pages/order's.html"><img src="../img/bag.png" height="40px" class="icons" /></a>
+                <b>Bag</b>
+            </div>
+            
             
         </div>
+        <hr />
 
-        <div class="child">
-            <img src="lemon.jpg" class="img"  alt="error">
-            <h2 class="text">lemon</h2>
-            <p class="p">
-                Price=50 <br>
-            </p>
-            <p class="p1">
-            (.Approx 500g)
-            </p>
-            
+        <div>
+            <img src="https://toyzone.in/cdn/shop/files/11.jpg?v=1723897718" class="img-head" alt="error">
         </div>
 
-        <div class="child">
-            <img src="mango.jpg" class="img"  alt="error">
-            <h2 class="text">Mango</h2>
-            <p class="p">
-                Price=185 <br>
-            </p>
-            <p class="p1">
-            (4 pics .Approx 800g-1000g)
-            </p>
-          
-        </div>
 
-        <div class="child">
-            <img src="orange.jpg" class="img"  alt="error">
-            <h2 class="text">Orange</h2>
-            <p class="p">
-                Price=150 <br>
-            </p>
-            <p class="p1">
-            (6 pics .Approx 500g-600g)
-            </p>
-           
-        </div>
+        <div class="card-parent">
+    
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://toyzone.in/cdn/shop/products/eco-panda-magic-car.jpg?v=1667823228" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"> <b><del> Price:-2000/-</del>  Price:-1200/-</b> </p>
+                <p class="shopping-card-title">Cycle</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
 
-        <div class="child">
-            <img src="papaya.jpg" class="img"  alt="error">
-            <h2 class="text">Papaya</h2>
-            <p class="p">
-                Price=50 <br>
-            </p>
-            <p class="p1">
-            ( .Approx 1kg)
-            </p>
-           
-        </div>
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://toyzone.in/cdn/shop/products/67.jpg?v=1667821819" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"> <b><del> Price:-799/-</del>  Price:-499/-</b> </p>
+                <p class="shopping-card-title">Big Forklift</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
 
-        <div class="child">
-            <img src="tomato.jpg" class="img"  alt="error">
-            <h2 class="text">Tomato</h2>
-            <p class="p">
-                Price=80 <br>
-            </p>
-            <p class="p1">
-            (.Approx 1kg)
-            </p>
-            
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://toyzone.in/cdn/shop/products/7245489.jpg?v=1667825723" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"> <b><del> Price:-799/-</del>  Price:-499/-</b> </p>
+                <p class="shopping-card-title">Road Roller</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
+
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/bat/o/c/i/850-the-original-slog-full-size-ideal-for-15-hard-plastic-for-original-imagmwqhpczcah9s.jpeg?q=70" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"> <b><del> Price:-999/-</del>  Price:-499/-</b> </p>
+                <p class="shopping-card-title">Plastic Bat</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
+
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/racquet/p/q/b/g4-3-25-inches-strung-gr303i-2-gr303i-95-badminton-racquet-yonex-original-imagrt8yhwfn5jrg.jpeg?q=70" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"><b><del> Price:-1200/-</del>  Price:-999/-</b> </p>
+                <p class="shopping-card-title"></p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
+
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/ball/p/m/q/-original-imagsp5bhndmhe3f.jpeg?q=70" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"><b><del> Price:-1500/-</del>  Price:-899/-</b> </p>
+                <p class="shopping-card-title">Cosco Football</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
+
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://cdn.shopify.com/s/files/1/0654/2445/7966/products/45052-02_db345a45-3ade-4c90-939a-eab5f633d4ec_600x.jpg?v=1665139311" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"> <b><del> Price:-999/-</del>  Price:-779/-</b> </p>
+                <p class="shopping-card-title">Barby Kitchen</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
+
+            <div class="shopping-card-container">
+                <div class="shopping-items img-1">
+                    <img src="https://cdn.shopify.com/s/files/1/0654/2445/7966/products/priamry-iamg_d80cadf4-72e8-4a96-8372-8c53895b36eb_600x.jpg?v=1667821176" class="wishlist-icon">
+                </div>
+                <p class="shopping-card-price"><b><del> Price:-1200/-</del>  Price:-999/-</b>  </p>
+                <p class="shopping-card-title">Batman Safari</p>
+                <p class="shopping-card-ratings">★★★★★(4)</p>
+                <p class="shopping-card-descrip"></p>
+                <button class="shopping-card-btn">Add to cart</button>
+                <button class="shopping-card-btn">Buy now</button>
+            </div>
+
         </div>
+         
+      
+    </div>
+
+
+
 </body>
+
 </html>
